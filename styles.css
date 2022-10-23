@@ -1,0 +1,23 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  display: flex;
+  flex-direction: row;
+  width: 100vw;
+  height: 100vh;
+}
+
+.background-container {
+  display: flex;
+  background-color: darkgreen;
+  width: 40%;
+}
+
+.main-container {
+  display: flex;
+  background-color: #D6D9DC;
+  width: 60%;
+}
