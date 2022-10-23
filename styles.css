@@ -1,3 +1,7 @@
+:root {
+  --left-form-margin: 40px;
+}
+
 * {
   padding: 0;
   margin: 0;
@@ -6,6 +10,8 @@
 body {
   width: 100vw;
   height: 100vh;
+
+  font-family: "Helvetica", "Arial", sans-serif;
 
   display: flex;
 }
@@ -27,8 +33,6 @@ body {
 
 .form-container {
   background-color: #ffffff;
-
-  padding: 5px;
   
   border: 1px solid #D6D9DC;
   -webkit-box-shadow: 0px 0px 2px 2px rgba(0,0,0,0.6); 
@@ -46,7 +50,9 @@ body {
 }
 
 .sign-up-form h1 {
-  margin-left: 40px;
+  margin-left: var(--left-form-margin);
+  margin-bottom: 30px;
+  font-size: 28px;
 }
 
 .form-row {
@@ -57,11 +63,17 @@ body {
 
 .form-row-item {
   margin-bottom: 20px;
-  margin-left: 40px;
+  margin-left: var(--left-form-margin);
   display: flex;
   justify-content: flex-start;
   flex-direction: column;
   flex-wrap: wrap;
+}
+
+.form-row label {
+  text-transform: uppercase;
+  font-size: 10px;
+
 }
 
 .form-row-item input {
@@ -71,4 +83,12 @@ body {
   width: 100%;
   padding: 7px;
   font-size: 14px;
+}
+
+.hero-container h1 {
+  margin-left: var(--left-form-margin);
+}
+
+.submit-container button {
+  margin-left: var(--left-form-margin);
 }
