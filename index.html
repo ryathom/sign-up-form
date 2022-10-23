@@ -16,7 +16,30 @@
       <h1>Some text goes here!</h1>
     </div>
     <div class="form-container">
-      <p>A form goes here!</p>
+      <form action="" method="post" class="sign-up-form">
+        <h1>Let's do this!</h1>
+        <div class="form-row">
+          <label for="first-name">First Name</label>
+          <input id="first-name" name="first-name" type="text" required>
+
+          <label for="last-name">Last Name</label>
+          <input id="last-name" name="last-name" type="text" required>
+        </div>
+        <div class="form-row">
+          <label for="email">Email</label>
+          <input id="email" name="email" type="email" required>
+
+          <label for="phone-number">Phone Number</label>
+          <input type="number" name="phone-number" id="phone-number">
+        </div>
+        <div class="form-row">
+          <label for="password">Password</label>
+          <input type="password" name="password" id="password" required>
+
+          <label for="confirm-password">Confirm Password</label>
+          <input type="password" name="confirm-password" id="confirm-password" required>
+        </div>
+      </form>
     </div>
     <div class="submit-container">
       <button>Submit</button>
