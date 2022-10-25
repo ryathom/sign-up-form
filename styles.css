@@ -92,4 +92,12 @@ body {
 
 .submit-container button {
   margin-left: var(--left-form-margin);
+
+  padding: 10px 30px;
+  background-color: darkgreen;
+  color: white;
+  font-weight: 800;
+
+  border: none;
+  border-radius: .5em;
 }
