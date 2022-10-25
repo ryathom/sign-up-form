@@ -24,8 +24,14 @@ body {
 }
 
 .background-container {
+  height: 100vh;
   width: 40%;
-  background-color: darkgreen;
+
+  position: relative;
+  background-image: url("tim-rebkavets-castle-unsplash.jpeg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
 }
 
 .logo-background {
@@ -53,6 +59,20 @@ body {
 
   position: relative;
   top: 10px;
+}
+
+.attribute {
+  color: white;
+  font-size: 10px;
+
+  position: absolute;
+  bottom: 5px;
+  left: 20%;
+}
+
+.attribute a {
+  color: white;
+  font-size: 10px;
 }
 
 .main-container {
