@@ -160,4 +160,19 @@ body {
 
   border: none;
   border-radius: .5em;
+
+  cursor: pointer;
+}
+
+.submit-container p {
+  margin-left: var(--left-form-margin);
+  margin-top: 20px;
+
+  font-size: 14px;
+}
+
+.submit-container a {
+  color: darkgreen;
+  text-decoration: none;
+  font-weight: 600;
 }
