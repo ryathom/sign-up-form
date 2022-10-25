@@ -1,5 +1,6 @@
 :root {
   --left-form-margin: 40px;
+  --accent-color: #161d6e
 }
 
 @font-face {
@@ -154,7 +155,7 @@ body {
   margin-left: var(--left-form-margin);
 
   padding: 10px 30px;
-  background-color: darkgreen;
+  background-color: var(--accent-color);
   color: white;
   font-weight: 800;
 
@@ -172,7 +173,7 @@ body {
 }
 
 .submit-container a {
-  color: darkgreen;
+  color: var(--accent-color);
   text-decoration: none;
   font-weight: 600;
 }
