@@ -177,3 +177,16 @@ body {
   text-decoration: none;
   font-weight: 600;
 }
+
+input:focus {
+  border: 2px solid var(--accent-color);
+  box-shadow: rgba(50, 50, 105, 0.15) 0px 2px 5px 0px, rgba(0, 0, 0, 0.05) 0px 1px 1px 0px;
+  outline: none;
+}
+
+input:focus:invalid {
+  border: 2px solid #751c08;
+  box-shadow: rgba(50, 50, 105, 0.15) 0px 2px 5px 0px, rgba(0, 0, 0, 0.05) 0px 1px 1px 0px;
+  outline: none;
+}
+
